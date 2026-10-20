@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="Hands Off My Bing opens Bing in Chrome’s new tab and applies your homepage display choices automatically.">
+  <title>Hands Off My Bing</title>
+  <style>
+    :root { color-scheme: dark; background: #090b10; color: #f5f7fa; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #090b10; color: #f5f7fa; }
+    main { width: min(600px, 100%); margin: 0 auto; padding: 48px 24px 64px; }
+    .brand { display: flex; align-items: center; gap: 20px; }
+    .brand img { width: 72px; height: 72px; flex: none; }
+    h1 { margin: 0; font-size: 30px; line-height: 1.15; font-weight: 300; overflow-wrap: anywhere; }
+    .zh { margin: 7px 0 0; color: #aeb8c5; font-size: 17px; }
+    .intro { margin: 34px 0 0; color: #d4dbe4; font-size: 16px; line-height: 1.6; }
+    .links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px; }
+    .links a { display: inline-block; padding: 11px 16px; background: #0078d4; color: #fff; text-decoration: none; }
+    a:focus-visible { outline: 2px solid #55b7ff; outline-offset: 3px; }
+    footer { margin-top: 52px; color: #aeb8c5; font-size: 13px; line-height: 1.55; }
+    @media (max-width: 460px) { main { padding: 32px 18px 48px; } .brand { align-items: flex-start; gap: 14px; } .brand img { width: 56px; height: 56px; } h1 { font-size: 25px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header class="brand">
+      <img src="assets/hands-off-my-bing.svg" alt="">
+      <div>
+        <h1>Hands Off My Bing</h1>
+        <p class="zh" lang="zh-CN">别动我的Bing主页</p>
+      </div>
+    </header>
+    <p class="intro">This Chrome extension opens Bing in Chrome’s new tab and automatically applies your selected homepage display choices.</p>
+    <nav class="links" aria-label="Privacy policy">
+      <a href="privacy/privacy.html" lang="en">English privacy</a>
+      <a href="privacy/privacy.zh-CN.html" lang="zh-CN">隐私说明</a>
+      <a href="privacy/privacy.de.html" lang="de">Datenschutz</a>
+    </nav>
+    <footer>
+      <p>Independent project; not affiliated with or endorsed by Microsoft, Bing, or Google.</p>
+      <p>Version 1.2.11 source snapshot. Browser runtime acceptance and Chrome Web Store submission are pending.</p>
+    </footer>
+  </main>
+</body>
+</html>

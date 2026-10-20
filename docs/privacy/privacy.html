@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Hands Off My Bing — Privacy</title>
+  <style>
+    :root { color-scheme: dark; background: #090b10; color: #f5f7fa; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #090b10; color: #f5f7fa; }
+    main { width: min(560px, 100%); margin: 0 auto; padding: 28px 24px 56px; }
+    nav { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 28px; color: #aeb8c5; font-size: 13px; }
+    a { color: #55b7ff; text-underline-offset: 3px; }
+    a:focus-visible { outline: 2px solid #55b7ff; outline-offset: 3px; }
+    h1 { margin: 0; font-size: 26px; line-height: 1.18; font-weight: 300; overflow-wrap: anywhere; }
+    .date { margin: 10px 0 28px; color: #aeb8c5; font-size: 12px; line-height: 1.5; }
+    section { margin: 22px 0 0; }
+    h2 { margin: 0 0 7px; font-size: 16px; line-height: 1.35; font-weight: 500; }
+    p { margin: 0; color: #d4dbe4; font-size: 14px; line-height: 1.58; }
+    @media (max-width: 420px) { main { padding: 22px 18px 44px; } h1 { font-size: 24px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <nav aria-label="Language"><a href="privacy.html" lang="en" aria-current="page">English</a><span aria-hidden="true">·</span><a href="privacy.zh-CN.html" lang="zh-CN">中文</a><span aria-hidden="true">·</span><a href="privacy.de.html" lang="de">Deutsch</a></nav>
+    <h1>Hands Off My Bing — Privacy</h1>
+    <p class="date">Updated October 19, 2026 (version 1.2.11)</p>
+    <section aria-labelledby="privacy-heading-1"><h2 id="privacy-heading-1">Stored on this device</h2><p>The extension stores the four display choices, automatic-apply switch, delay, and interface language locally. It does not read search text, page content, cookies, account details, or request bodies, and sends no data to a developer or analytics server.</p></section>
+<section aria-labelledby="privacy-heading-2"><h2 id="privacy-heading-2">Temporary tab information</h2><p>Managed tab identifiers are kept only for the current browser session. The extension briefly checks the URL and state of tabs it opens. A URL may include a query, but only its site and path are used to recognize a supported homepage; query values and search terms are not extracted, and URLs are not saved as browsing history.</p></section>
+<section aria-labelledby="privacy-heading-3"><h2 id="privacy-heading-3">How news is handled</h2><p>When automatic apply is on and News is Off, the extension blocks background requests to a specific carousel endpoint only in the single tab it manages. Other content is not broadly blocked; other hiding uses removable styles. Bing continues to connect normally and manages its native preferences.</p></section>
+<section aria-labelledby="privacy-heading-4"><h2 id="privacy-heading-4">New tabs and restoring Chrome</h2><p>The extension replaces Chrome’s new-tab page. Pausing does not restore Chrome’s default page; disabling or uninstalling it does. Pausing or uninstalling does not undo display settings already saved in Bing.</p></section>
+<section aria-labelledby="privacy-heading-5"><h2 id="privacy-heading-5">Focus protection</h2><p>During startup, search-box focus protection lasts at most 20 seconds. If the page loses focus during automatic apply, a separate temporary guard may also run for up to 20 seconds. Neither reads typed text, and timing can still cause missed characters.</p></section>
+<section aria-labelledby="privacy-heading-6"><h2 id="privacy-heading-6">Supported sites and project</h2><p>The extension runs only on the HTTPS root pages of www.bing.com, cn.bing.com, and bing.com, with limited permissions. It uses no remote code, ads, or analytics. It is an independent project with no affiliation with or endorsement by Microsoft, Bing, or Google.</p></section>
+  </main>
+</body>
+</html>

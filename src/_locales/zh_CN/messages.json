@@ -1,0 +1,242 @@
+{
+  "appTitle": {
+    "message": "别动我的Bing主页"
+  },
+  "languageLabel": {
+    "message": "界面语言"
+  },
+  "languageAuto": {
+    "message": "自动"
+  },
+  "languageSelect": {
+    "message": "界面语言"
+  },
+  "autoApply": {
+    "message": "自动应用"
+  },
+  "autoApplyHelp": {
+    "message": "打开 Bing 首页时应用"
+  },
+  "homepageDisplay": {
+    "message": "主页显示"
+  },
+  "menu": {
+    "message": "菜单栏"
+  },
+  "news": {
+    "message": "新闻和关注"
+  },
+  "trending": {
+    "message": "必应热点"
+  },
+  "image": {
+    "message": "背景图片"
+  },
+  "keep": {
+    "message": "保持原样"
+  },
+  "off": {
+    "message": "关闭"
+  },
+  "on": {
+    "message": "显示"
+  },
+  "presetGroup": {
+    "message": "快捷设置"
+  },
+  "presetWallpaper": {
+    "message": "只留壁纸"
+  },
+  "presetOff": {
+    "message": "全部关闭"
+  },
+  "moreSettings": {
+    "message": "更多设置"
+  },
+  "switchDelay": {
+    "message": "相邻切换间隔（毫秒）"
+  },
+  "save": {
+    "message": "保存"
+  },
+  "delayHelp": {
+    "message": "可填 0–2000 的整数；过短可能漏关。"
+  },
+  "delayInvalid": {
+    "message": "请输入 0–2000 之间的整数。"
+  },
+  "keepNote": {
+    "message": "“保持原样”不会更改 Bing 当前设置。"
+  },
+  "pauseNote": {
+    "message": "暂停或卸载不会撤销 Bing 已保存的设置。"
+  },
+  "newsNote": {
+    "message": "隐藏新闻不代表阻止所有内容下载。"
+  },
+  "privacyLink": {
+    "message": "隐私说明"
+  },
+  "savedLocally": {
+    "message": "设置保存在本机"
+  },
+  "loadingSettings": {
+    "message": "正在读取设置…"
+  },
+  "retry": {
+    "message": "重试"
+  },
+  "saving": {
+    "message": "正在保存…"
+  },
+  "saveFailed": {
+    "message": "保存失败 · 请重新选择或重开扩展。"
+  },
+  "readFailed": {
+    "message": "无法读取设置 · 请重新打开扩展。"
+  },
+  "languageSaveFailed": {
+    "message": "语言保存失败 · 已恢复之前的语言。"
+  },
+  "languageSaved": {
+    "message": "语言已保存。"
+  },
+  "noChanges": {
+    "message": "已保存 · 选择要自动更改的项目即可开始。"
+  },
+  "waitingFocusNews": {
+    "message": "新闻区域已隐藏 · 等待页面焦点后继续应用 Bing 设置。"
+  },
+  "waitingFocus": {
+    "message": "页面获得焦点后继续。"
+  },
+  "newsLayoutSettling": {
+    "message": "新闻区域已隐藏 · Bing 正在调整版面。"
+  },
+  "newsLayoutUnknown": {
+    "message": "新闻区域已隐藏 · 此版主页布局暂无法确认。"
+  },
+  "newsPending": {
+    "message": "新闻区域已隐藏 · Bing 开关待完成：{items}。"
+  },
+  "pendingItems": {
+    "message": "部分设置待完成：{items}。"
+  },
+  "partialUnknown": {
+    "message": "部分设置尚未确认。"
+  },
+  "doneNews": {
+    "message": "已应用 · 新闻区域已隐藏。"
+  },
+  "loadingBing": {
+    "message": "正在检查 Bing 首页…"
+  },
+  "applying": {
+    "message": "正在应用设置…"
+  },
+  "done": {
+    "message": "主页设置已应用。"
+  },
+  "unmanaged": {
+    "message": "已保存 · 打开或刷新 Bing 首页以应用。"
+  },
+  "paused": {
+    "message": "已暂停 · Bing 当前设置保持不变。"
+  },
+  "interrupted": {
+    "message": "自动设置已停止 · 可重试。"
+  },
+  "unsupported": {
+    "message": "未找到主页设置 · 页面可能尚未加载或已改版。"
+  },
+  "error": {
+    "message": "读取设置状态失败 · 可重试。"
+  },
+  "saved": {
+    "message": "已保存。"
+  },
+  "unableRetry": {
+    "message": "无法重试 · 请打开或刷新 Bing 首页。"
+  },
+  "pageMenu": {
+    "message": "菜单栏"
+  },
+  "pageNews": {
+    "message": "新闻和关注"
+  },
+  "pageTrending": {
+    "message": "必应热点"
+  },
+  "pageImage": {
+    "message": "背景图片"
+  },
+  "ntFallback": {
+    "message": "别动我的Bing主页暂时无法自动打开 Bing。请使用下方链接。"
+  },
+  "ntLink": {
+    "message": "打开 Bing"
+  },
+  "ntReturned": {
+    "message": "已返回新标签页。点击打开 Bing。"
+  },
+  "ntNoTab": {
+    "message": "无法确认新标签页。请手动打开 Bing。"
+  },
+  "ntUnsafe": {
+    "message": "无法安全打开 Bing。请手动打开 Bing。"
+  },
+  "privacyTitle": {
+    "message": "别动我的Bing主页 · 隐私说明"
+  },
+  "privacyDate": {
+    "message": "更新日期：2026 年 10 月 19 日（版本 1.2.11）"
+  },
+  "privacy1": {
+    "message": "四项显示偏好、自动应用总开关、切换间隔和界面语言保存在本机。扩展不读取搜索框输入、网页正文、Cookie、账号资料或请求正文，也不会向开发者或分析服务器发送数据。"
+  },
+  "privacy2": {
+    "message": "受管标签编号只在当前浏览器会话中保留。扩展会短暂检查自己打开的新标签网址和状态；网址可能带查询参数，但只用站点和路径识别受支持首页，不提取查询内容或搜索词，也不保存浏览历史。"
+  },
+  "privacy3": {
+    "message": "自动应用开启且“新闻”设为“关闭”时，扩展只在自己打开的单个受管标签中阻止发往指定轮播接口的后台请求。其他内容不会被全面拦截；其他隐藏效果使用可撤销样式。Bing 仍正常联网，并自行管理原生偏好。"
+  },
+  "privacy4": {
+    "message": "扩展会替换 Chrome 新标签页。暂停时不会恢复 Chrome 默认页；停用或卸载后 Chrome 会恢复。暂停或卸载不会撤销已保存到 Bing 的显示设置。"
+  },
+  "privacy5": {
+    "message": "页面启动时，搜索框焦点保护最长 20 秒。自动应用期间若页面失焦，还会启用单独的焦点保护，最长也为 20 秒。保护不读取输入，但某些时序下仍可能漏字。"
+  },
+  "privacy6": {
+    "message": "扩展仅在 HTTPS 的 www.bing.com、cn.bing.com、bing.com 首页根路径运行，并使用有限权限；没有远程代码、广告或统计。与 Microsoft、Bing、Google 无隶属关系，也未获其背书。"
+  },
+  "appName": {
+    "message": "别动我的Bing主页"
+  },
+  "appDescription": {
+    "message": "在 Chrome 新标签页打开 Bing，并自动应用你选择的主页显示偏好。"
+  },
+  "itemPending": {
+    "message": "其他项目"
+  },
+  "disableNote": {
+    "message": "停用扩展后，Chrome 默认新标签页会恢复。"
+  },
+  "privacyHeading1": {
+    "message": "本机保存"
+  },
+  "privacyHeading2": {
+    "message": "临时页面信息"
+  },
+  "privacyHeading3": {
+    "message": "新闻处理范围"
+  },
+  "privacyHeading4": {
+    "message": "新标签与恢复"
+  },
+  "privacyHeading5": {
+    "message": "焦点保护"
+  },
+  "privacyHeading6": {
+    "message": "站点与服务"
+  }
+}

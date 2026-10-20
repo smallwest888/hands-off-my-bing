@@ -1,0 +1,4 @@
+:root { color-scheme: light dark; background: Canvas; color: CanvasText; }
+html, body { min-height: 100%; margin: 0; background: Canvas; }
+#fallback { margin: 1rem; font: menu; }
+#fallback a { color: LinkText; }

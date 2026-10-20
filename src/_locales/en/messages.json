@@ -1,0 +1,242 @@
+{
+  "appTitle": {
+    "message": "Hands Off My Bing"
+  },
+  "languageLabel": {
+    "message": "Interface language"
+  },
+  "languageAuto": {
+    "message": "Auto"
+  },
+  "languageSelect": {
+    "message": "Interface language"
+  },
+  "autoApply": {
+    "message": "Apply automatically"
+  },
+  "autoApplyHelp": {
+    "message": "When a Bing home page opens"
+  },
+  "homepageDisplay": {
+    "message": "Homepage display"
+  },
+  "menu": {
+    "message": "Menu bar"
+  },
+  "news": {
+    "message": "News and interests"
+  },
+  "trending": {
+    "message": "Trending on Bing"
+  },
+  "image": {
+    "message": "Background image"
+  },
+  "keep": {
+    "message": "Keep current"
+  },
+  "off": {
+    "message": "Turn off"
+  },
+  "on": {
+    "message": "Show"
+  },
+  "presetGroup": {
+    "message": "Quick settings"
+  },
+  "presetWallpaper": {
+    "message": "Wallpaper only"
+  },
+  "presetOff": {
+    "message": "Turn all off"
+  },
+  "moreSettings": {
+    "message": "More settings"
+  },
+  "switchDelay": {
+    "message": "Switch interval (ms)"
+  },
+  "save": {
+    "message": "Save"
+  },
+  "delayHelp": {
+    "message": "Enter a whole number from 0 to 2000. Very short intervals may miss a switch."
+  },
+  "delayInvalid": {
+    "message": "Enter a whole number from 0 to 2000."
+  },
+  "keepNote": {
+    "message": "“Keep as is” leaves the current Bing setting unchanged."
+  },
+  "pauseNote": {
+    "message": "Pausing or uninstalling does not undo settings saved in Bing."
+  },
+  "newsNote": {
+    "message": "Hiding news does not block every content download."
+  },
+  "privacyLink": {
+    "message": "Privacy"
+  },
+  "savedLocally": {
+    "message": "Settings are stored on this device"
+  },
+  "loadingSettings": {
+    "message": "Loading settings…"
+  },
+  "retry": {
+    "message": "Retry"
+  },
+  "saving": {
+    "message": "Saving…"
+  },
+  "saveFailed": {
+    "message": "Could not save · Choose again or reopen the extension."
+  },
+  "readFailed": {
+    "message": "Could not read settings · Reopen the extension."
+  },
+  "languageSaveFailed": {
+    "message": "Could not save the language · Previous language restored."
+  },
+  "languageSaved": {
+    "message": "Language saved."
+  },
+  "noChanges": {
+    "message": "Saved · Choose an item to change automatically."
+  },
+  "waitingFocusNews": {
+    "message": "News area hidden · Bing settings will resume when the page has focus."
+  },
+  "waitingFocus": {
+    "message": "Will continue when the page has focus."
+  },
+  "newsLayoutSettling": {
+    "message": "News area hidden · Bing is adjusting the layout."
+  },
+  "newsLayoutUnknown": {
+    "message": "News area hidden · This homepage layout could not be confirmed."
+  },
+  "newsPending": {
+    "message": "News area hidden · Waiting for Bing controls: {items}."
+  },
+  "pendingItems": {
+    "message": "Some settings are still pending: {items}."
+  },
+  "partialUnknown": {
+    "message": "Some settings could not be confirmed."
+  },
+  "doneNews": {
+    "message": "Applied · News area hidden."
+  },
+  "loadingBing": {
+    "message": "Checking the Bing homepage…"
+  },
+  "applying": {
+    "message": "Applying settings…"
+  },
+  "done": {
+    "message": "Homepage settings applied."
+  },
+  "unmanaged": {
+    "message": "Saved · Open or refresh a Bing homepage to apply."
+  },
+  "paused": {
+    "message": "Paused · Current Bing settings are left unchanged."
+  },
+  "interrupted": {
+    "message": "Automatic changes stopped · Retry is available."
+  },
+  "unsupported": {
+    "message": "Homepage controls not found · The page may still be loading or may have changed."
+  },
+  "error": {
+    "message": "Could not read status · Retry is available."
+  },
+  "saved": {
+    "message": "Saved."
+  },
+  "unableRetry": {
+    "message": "Could not retry · Open or refresh a Bing homepage."
+  },
+  "pageMenu": {
+    "message": "Menu bar"
+  },
+  "pageNews": {
+    "message": "News and interests"
+  },
+  "pageTrending": {
+    "message": "Trending on Bing"
+  },
+  "pageImage": {
+    "message": "Background image"
+  },
+  "ntFallback": {
+    "message": "Hands Off My Bing could not open Bing automatically. Use the link below."
+  },
+  "ntLink": {
+    "message": "Open Bing"
+  },
+  "ntReturned": {
+    "message": "Returned to the new-tab page. Select Open Bing to continue."
+  },
+  "ntNoTab": {
+    "message": "Could not verify this new tab. Open Bing manually."
+  },
+  "ntUnsafe": {
+    "message": "Bing could not be opened safely. Open it manually."
+  },
+  "privacyTitle": {
+    "message": "Hands Off My Bing — Privacy"
+  },
+  "privacyDate": {
+    "message": "Updated October 19, 2026 (version 1.2.11)"
+  },
+  "privacy1": {
+    "message": "The extension stores the four display choices, automatic-apply switch, delay, and interface language locally. It does not read search text, page content, cookies, account details, or request bodies, and sends no data to a developer or analytics server."
+  },
+  "privacy2": {
+    "message": "Managed tab identifiers are kept only for the current browser session. The extension briefly checks the URL and state of tabs it opens. A URL may include a query, but only its site and path are used to recognize a supported homepage; query values and search terms are not extracted, and URLs are not saved as browsing history."
+  },
+  "privacy3": {
+    "message": "When automatic apply is on and News is Off, the extension blocks background requests to a specific carousel endpoint only in the single tab it manages. Other content is not broadly blocked; other hiding uses removable styles. Bing continues to connect normally and manages its native preferences."
+  },
+  "privacy4": {
+    "message": "The extension replaces Chrome’s new-tab page. Pausing does not restore Chrome’s default page; disabling or uninstalling it does. Pausing or uninstalling does not undo display settings already saved in Bing."
+  },
+  "privacy5": {
+    "message": "During startup, search-box focus protection lasts at most 20 seconds. If the page loses focus during automatic apply, a separate temporary guard may also run for up to 20 seconds. Neither reads typed text, and timing can still cause missed characters."
+  },
+  "privacy6": {
+    "message": "The extension runs only on the HTTPS root pages of www.bing.com, cn.bing.com, and bing.com, with limited permissions. It uses no remote code, ads, or analytics. It is an independent project with no affiliation with or endorsement by Microsoft, Bing, or Google."
+  },
+  "appName": {
+    "message": "Hands Off My Bing"
+  },
+  "appDescription": {
+    "message": "Open Bing in Chrome’s new tab and apply your homepage choices automatically."
+  },
+  "itemPending": {
+    "message": "Another setting"
+  },
+  "disableNote": {
+    "message": "Disabling the extension restores Chrome’s default new-tab page."
+  },
+  "privacyHeading1": {
+    "message": "Stored on this device"
+  },
+  "privacyHeading2": {
+    "message": "Temporary tab information"
+  },
+  "privacyHeading3": {
+    "message": "How news is handled"
+  },
+  "privacyHeading4": {
+    "message": "New tabs and restoring Chrome"
+  },
+  "privacyHeading5": {
+    "message": "Focus protection"
+  },
+  "privacyHeading6": {
+    "message": "Supported sites and project"
+  }
+}

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title data-i18n="appTitle">别动我的Bing主页</title>
+  <link rel="stylesheet" href="popup.css">
+  <script src="preferences.js" defer></script>
+  <script src="ui-language.js" defer></script>
+  <script src="popup.js" defer></script>
+</head>
+<body class="settings-page">
+  <main class="panel">
+    <header class="brand">
+      <h1 data-i18n="appTitle">别动我的Bing主页</h1>
+      <label class="language-picker"><span class="sr-only" data-i18n="languageLabel">界面语言</span>
+        <select id="uiLanguage" data-i18n-aria="languageSelect">
+          <option value="auto" data-i18n="languageAuto">自动</option>
+          <option value="zh_CN">中文</option>
+          <option value="en">English</option>
+          <option value="de">Deutsch</option>
+        </select>
+      </label>
+    </header>
+
+    <form id="preferences">
+      <fieldset id="controls" disabled>
+        <label class="master" for="enabled">
+          <span class="master-copy"><strong data-i18n="autoApply">自动应用</strong><small data-i18n="autoApplyHelp">打开 Bing 首页时应用</small></span>
+          <input type="checkbox" id="enabled" role="switch" aria-label="自动应用" data-i18n-aria="autoApply">
+          <span class="switch" aria-hidden="true"></span>
+        </label>
+
+        <section class="settings-group" aria-labelledby="settingsHeading">
+          <h2 id="settingsHeading" data-i18n="homepageDisplay">主页显示</h2>
+          <div class="settings">
+            <label class="row" for="menu"><span data-i18n="menu">菜单栏</span><select id="menu" data-field="menu"></select></label>
+            <label class="row" for="news"><span data-i18n="news">新闻和关注</span><select id="news" data-field="news"></select></label>
+            <label class="row" for="trending"><span data-i18n="trending">必应热点</span><select id="trending" data-field="trending"></select></label>
+            <label class="row" for="image"><span data-i18n="image">背景图片</span><select id="image" data-field="image"></select></label>
+          </div>
+        </section>
+
+        <div class="presets" role="group" aria-label="快捷设置" data-i18n-aria="presetGroup">
+          <button type="button" data-preset="wallpaper" data-i18n="presetWallpaper">只留壁纸</button>
+          <button type="button" data-preset="off" data-i18n="presetOff">全部关闭</button>
+        </div>
+
+        <details class="more-details">
+          <summary><span data-i18n="moreSettings">更多设置</span><span id="delaySummaryValue">80 ms</span></summary>
+          <div class="more-body">
+            <label for="switchDelayMs" data-i18n="switchDelay">切换间隔（毫秒）</label>
+            <div class="delay-control">
+              <input id="switchDelayMs" type="number" min="0" max="2000" step="1" inputmode="numeric" aria-describedby="delayHelp delayError">
+              <button id="saveDelay" type="button" data-i18n="save">保存</button>
+            </div>
+            <small id="delayHelp" data-i18n="delayHelp">可填 0–2000 的整数；过短可能漏关。</small>
+            <small id="delayError" class="delay-error" role="status" aria-live="polite"></small>
+            <div class="more-notes">
+              <p data-i18n="keepNote">“保持原样”不会更改 Bing 当前设置。</p>
+              <p data-i18n="pauseNote">暂停或卸载不会撤销已保存的 Bing 设置。</p>
+              <p data-i18n="disableNote">停用扩展后，Chrome 默认新标签页会恢复。</p>
+              <p data-i18n="newsNote">隐藏新闻只控制显示；不代表阻止所有内容下载。</p>
+            </div>
+          </div>
+        </details>
+      </fieldset>
+    </form>
+
+    <div class="status-box"><span class="dot" aria-hidden="true"></span><p id="status" role="status" aria-live="polite">正在读取设置…</p><button id="retry" type="button" hidden data-i18n="retry">重试</button></div>
+    <footer><span data-i18n="savedLocally">设置保存在本机</span><a href="privacy.html" target="_blank" rel="noopener" data-i18n="privacyLink">隐私说明</a></footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,83 @@
+{
+  "manifest_version": 3,
+  "default_locale": "en",
+  "minimum_chrome_version": "111",
+  "name": "__MSG_appName__",
+  "version": "1.2.11",
+  "description": "__MSG_appDescription__",
+  "permissions": [
+    "storage",
+    "declarativeNetRequestWithHostAccess"
+  ],
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "icons": {
+    "16": "icons/16.png",
+    "32": "icons/32.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "action": {
+    "default_title": "__MSG_appName__",
+    "default_popup": "popup.html"
+  },
+  "options_ui": {
+    "page": "popup.html",
+    "open_in_tab": true
+  },
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.bing.com/*",
+        "https://cn.bing.com/*",
+        "https://bing.com/*"
+      ],
+      "include_globs": [
+        "https://www.bing.com/",
+        "https://www.bing.com/?*",
+        "https://www.bing.com/#*",
+        "https://cn.bing.com/",
+        "https://cn.bing.com/?*",
+        "https://cn.bing.com/#*",
+        "https://bing.com/",
+        "https://bing.com/?*",
+        "https://bing.com/#*"
+      ],
+      "js": [
+        "focus-guard.js"
+      ],
+      "run_at": "document_start",
+      "world": "MAIN"
+    },
+    {
+      "matches": [
+        "https://www.bing.com/*",
+        "https://cn.bing.com/*",
+        "https://bing.com/*"
+      ],
+      "include_globs": [
+        "https://www.bing.com/",
+        "https://www.bing.com/?*",
+        "https://www.bing.com/#*",
+        "https://cn.bing.com/",
+        "https://cn.bing.com/?*",
+        "https://cn.bing.com/#*",
+        "https://bing.com/",
+        "https://bing.com/?*",
+        "https://bing.com/#*"
+      ],
+      "js": [
+        "preferences.js",
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "host_permissions": [
+    "https://www.bing.com/*"
+  ]
+}

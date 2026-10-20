@@ -1,0 +1,242 @@
+{
+  "appTitle": {
+    "message": "Hands Off My Bing"
+  },
+  "languageLabel": {
+    "message": "Anzeigesprache"
+  },
+  "languageAuto": {
+    "message": "Automatisch"
+  },
+  "languageSelect": {
+    "message": "Anzeigesprache"
+  },
+  "autoApply": {
+    "message": "Automatisch anwenden"
+  },
+  "autoApplyHelp": {
+    "message": "Beim Öffnen einer Bing-Startseite"
+  },
+  "homepageDisplay": {
+    "message": "Startseitenanzeige"
+  },
+  "menu": {
+    "message": "Menüleiste"
+  },
+  "news": {
+    "message": "Nachrichten und Interessen"
+  },
+  "trending": {
+    "message": "Bing-Trends"
+  },
+  "image": {
+    "message": "Hintergrundbild"
+  },
+  "keep": {
+    "message": "Unverändert"
+  },
+  "off": {
+    "message": "Ausblenden"
+  },
+  "on": {
+    "message": "Anzeigen"
+  },
+  "presetGroup": {
+    "message": "Schnelleinstellungen"
+  },
+  "presetWallpaper": {
+    "message": "Nur Hintergrundbild"
+  },
+  "presetOff": {
+    "message": "Alles ausblenden"
+  },
+  "moreSettings": {
+    "message": "Weitere Einstellungen"
+  },
+  "switchDelay": {
+    "message": "Abstand zwischen Umschaltungen (ms)"
+  },
+  "save": {
+    "message": "Speichern"
+  },
+  "delayHelp": {
+    "message": "Ganze Zahl von 0 bis 2000. Ein sehr kurzer Abstand kann Umschaltungen auslassen."
+  },
+  "delayInvalid": {
+    "message": "Gib eine ganze Zahl von 0 bis 2000 ein."
+  },
+  "keepNote": {
+    "message": "„Unverändert“ lässt die aktuelle Bing-Einstellung unverändert."
+  },
+  "pauseNote": {
+    "message": "Pausieren oder Entfernen macht in Bing gespeicherte Einstellungen nicht rückgängig."
+  },
+  "newsNote": {
+    "message": "Ausgeblendete Nachrichten verhindern nicht alle Inhaltsdownloads."
+  },
+  "privacyLink": {
+    "message": "Datenschutz"
+  },
+  "savedLocally": {
+    "message": "Einstellungen werden lokal gespeichert"
+  },
+  "loadingSettings": {
+    "message": "Einstellungen werden geladen…"
+  },
+  "retry": {
+    "message": "Erneut versuchen"
+  },
+  "saving": {
+    "message": "Wird gespeichert…"
+  },
+  "saveFailed": {
+    "message": "Speichern fehlgeschlagen · Wähle die Einstellung erneut oder öffne die Erweiterung neu."
+  },
+  "readFailed": {
+    "message": "Einstellungen konnten nicht gelesen werden · Öffne die Erweiterung erneut."
+  },
+  "languageSaveFailed": {
+    "message": "Sprache konnte nicht gespeichert werden · Vorherige Sprache wiederhergestellt."
+  },
+  "languageSaved": {
+    "message": "Sprache gespeichert."
+  },
+  "noChanges": {
+    "message": "Gespeichert · Wähle eine Option zur automatischen Änderung."
+  },
+  "waitingFocusNews": {
+    "message": "Nachrichtenbereich ausgeblendet · Bing-Einstellungen werden fortgesetzt, sobald die Seite Fokus hat."
+  },
+  "waitingFocus": {
+    "message": "Wird fortgesetzt, sobald die Seite den Fokus hat."
+  },
+  "newsLayoutSettling": {
+    "message": "Nachrichtenbereich ausgeblendet · Bing passt das Layout an."
+  },
+  "newsLayoutUnknown": {
+    "message": "Nachrichtenbereich ausgeblendet · Dieses Startseitenlayout konnte nicht bestätigt werden."
+  },
+  "newsPending": {
+    "message": "Nachrichtenbereich ausgeblendet · Bing-Steuerelemente stehen noch aus: {items}."
+  },
+  "pendingItems": {
+    "message": "Einige Einstellungen stehen noch aus: {items}."
+  },
+  "partialUnknown": {
+    "message": "Einige Einstellungen konnten nicht bestätigt werden."
+  },
+  "doneNews": {
+    "message": "Angewendet · Nachrichtenbereich ausgeblendet."
+  },
+  "loadingBing": {
+    "message": "Bing-Startseite wird geprüft…"
+  },
+  "applying": {
+    "message": "Einstellungen werden angewendet…"
+  },
+  "done": {
+    "message": "Startseiteneinstellungen angewendet."
+  },
+  "unmanaged": {
+    "message": "Gespeichert · Öffne oder aktualisiere eine Bing-Startseite zum Anwenden."
+  },
+  "paused": {
+    "message": "Pausiert · Aktuelle Bing-Einstellungen bleiben unverändert."
+  },
+  "interrupted": {
+    "message": "Automatische Änderungen gestoppt · Erneuter Versuch möglich."
+  },
+  "unsupported": {
+    "message": "Startseiten-Steuerelemente nicht gefunden · Die Seite lädt noch oder wurde geändert."
+  },
+  "error": {
+    "message": "Status konnte nicht gelesen werden · Erneuter Versuch möglich."
+  },
+  "saved": {
+    "message": "Gespeichert."
+  },
+  "unableRetry": {
+    "message": "Erneuter Versuch fehlgeschlagen · Öffne oder aktualisiere eine Bing-Startseite."
+  },
+  "pageMenu": {
+    "message": "Menüleiste"
+  },
+  "pageNews": {
+    "message": "Nachrichten und Interessen"
+  },
+  "pageTrending": {
+    "message": "Bing-Trends"
+  },
+  "pageImage": {
+    "message": "Hintergrundbild"
+  },
+  "ntFallback": {
+    "message": "Hands Off My Bing konnte Bing nicht automatisch öffnen. Verwende den Link unten."
+  },
+  "ntLink": {
+    "message": "Bing öffnen"
+  },
+  "ntReturned": {
+    "message": "Zurück zur neuen Tab-Seite. Wähle „Bing öffnen“."
+  },
+  "ntNoTab": {
+    "message": "Dieser neue Tab konnte nicht bestätigt werden. Öffne Bing manuell."
+  },
+  "ntUnsafe": {
+    "message": "Bing konnte nicht sicher geöffnet werden. Öffne Bing manuell."
+  },
+  "privacyTitle": {
+    "message": "Hands Off My Bing – Datenschutz"
+  },
+  "privacyDate": {
+    "message": "Aktualisiert am 19. Oktober 2026 (Version 1.2.11)"
+  },
+  "privacy1": {
+    "message": "Die Erweiterung speichert die vier Anzeigeoptionen, den Schalter für automatische Anwendung, den Abstand und die Anzeigesprache lokal. Sie liest keine Suchtexte, Seiteninhalte, Cookies, Kontodaten oder Anfrageinhalte und sendet keine Daten an Entwickler oder Analyseserver."
+  },
+  "privacy2": {
+    "message": "Kennungen verwalteter Tabs bleiben nur in der aktuellen Browsersitzung gespeichert. Die Erweiterung prüft kurz URL und Status von Tabs, die sie selbst öffnet. Eine URL kann eine Query enthalten; zur Erkennung einer unterstützten Startseite nutzt sie nur Website und Pfad. Query-Werte oder Suchbegriffe werden nicht ausgelesen und URLs nicht als Verlauf gespeichert."
+  },
+  "privacy3": {
+    "message": "Ist die automatische Anwendung aktiv und Nachrichten auf Ausblenden gestellt, blockiert die Erweiterung Hintergrundanfragen an einen bestimmten Carousel-Endpunkt nur im einzelnen von ihr verwalteten Tab. Andere Inhalte werden nicht allgemein blockiert; weitere Ausblendungen erfolgen über entfernbare Stile. Bing verbindet sich weiterhin normal und verwaltet die eigenen Einstellungen selbst."
+  },
+  "privacy4": {
+    "message": "Die Erweiterung ersetzt Chromes Seite für neue Tabs. Pausieren stellt die Standardseite nicht wieder her; Deaktivieren oder Entfernen schon. In Bing gespeicherte Anzeigeoptionen bleiben auch nach Pausieren oder Entfernen bestehen."
+  },
+  "privacy5": {
+    "message": "Beim Start kann der Fokus-Schutz für das Suchfeld höchstens 20 Sekunden aktiv sein. Verliert die Seite während einer automatischen Anwendung den Fokus, kann ein separater Schutz ebenfalls bis zu 20 Sekunden laufen. Er liest keine Eingabe; bei ungünstigem Timing können Zeichen fehlen."
+  },
+  "privacy6": {
+    "message": "Die Erweiterung läuft nur auf den HTTPS-Startseiten unter www.bing.com, cn.bing.com und bing.com und nutzt begrenzte Berechtigungen. Sie enthält keinen Remote-Code, keine Werbung und keine Analyse. Sie ist ein unabhängiges Projekt ohne Zugehörigkeit zu oder Unterstützung durch Microsoft, Bing oder Google."
+  },
+  "appName": {
+    "message": "Hands Off My Bing"
+  },
+  "appDescription": {
+    "message": "Öffnet Bing in einem neuen Chrome-Tab und wendet deine Anzeigeoptionen automatisch an."
+  },
+  "itemPending": {
+    "message": "Weitere Einstellung"
+  },
+  "disableNote": {
+    "message": "Beim Deaktivieren stellt Chrome die Standardseite für neue Tabs wieder her."
+  },
+  "privacyHeading1": {
+    "message": "Lokal gespeichert"
+  },
+  "privacyHeading2": {
+    "message": "Kurz geprüfte Tab-Daten"
+  },
+  "privacyHeading3": {
+    "message": "Umgang mit Nachrichten"
+  },
+  "privacyHeading4": {
+    "message": "Neue Tabs und Wiederherstellung"
+  },
+  "privacyHeading5": {
+    "message": "Fokus-Schutz"
+  },
+  "privacyHeading6": {
+    "message": "Unterstützte Seiten und Projekt"
+  }
+}
